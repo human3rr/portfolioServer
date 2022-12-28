@@ -7,7 +7,7 @@ const https = require('https')
 var http = require('http');
 const path = require('path')
 const fs = require('fs')
-app.use(express.static('./public'));
+app.use(express.static('./portfolio'));
 //app.use(express.static('./public/motivation-tracker'));
 
 //app.listen(port, () => console.log(`listening on port ${port}!`));
